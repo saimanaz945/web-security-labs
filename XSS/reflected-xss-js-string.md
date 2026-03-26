@@ -22,5 +22,5 @@ The resulting code becomes var searchTerms = ''-alert(1)-'';, which is valid Jav
 
 An alert box with "1" appears on the screen.
 proof of concept
-!(reflected xss js string)[reflected-xss-js-string.PNG)
+![reflected xss js string][reflected-xss-js-string.PNG)
 
