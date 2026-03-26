@@ -9,7 +9,7 @@ This lab demonstrates **Stored Cross-Site Scripting (XSS)**. Unlike reflected XS
 
 ### Payload Used
 ```html
-<script>alert(1)</script>
+<script>alert(1)</script> ```
 ### Steps to Reproduce
 1. Go to the blog post located at `/post?postId=2`.
 2. Scroll down to the **"Leave a comment"** section.
