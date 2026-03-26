@@ -11,6 +11,7 @@ This lab demonstrates a **DOM-based XSS** vulnerability. The application uses a 
 ### Payload Used
 ```javascript
 javascript:alert(document.cookie)
+```
 Steps to Reproduce
 Go to the Feedback page of the lab.
 
@@ -25,4 +26,5 @@ Click the "Back" link on the page.
 An alert box showing your session cookies will appear.
 
 Proof of Concept
+![dom xss ](dom-xss.PNG)
 
