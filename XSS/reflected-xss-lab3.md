@@ -11,7 +11,7 @@ This lab demonstrates a **Reflected Cross-Site Scripting (XSS)** vulnerability. 
 ### Payload Used
 ```html
 "><script>alert(1)</script>
-### Steps to Reproduce
+### Steps to Reproduce ```
 Navigate to the home page of the vulnerable application.
 
 In the search bar, enter the following breakout payload: "><script>alert(1)</script>.
@@ -23,7 +23,7 @@ Click the Search button.
 The browser executes the injected <script> tag, and an alert box with "1" appears.
 
 ### Proof of Concept
-![stored xss](reflected-xss-proof-2.PNG)
+![![Reflected XSS Proof](reflected-xss-proof-2.PNG)](reflected-xss-proof-2.PNG)
 
 
 
