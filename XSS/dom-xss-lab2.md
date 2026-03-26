@@ -10,5 +10,6 @@ This lab demonstrates a DOM-based XSS vulnerability within an AngularJS expressi
 ### Payload Used
 ```javascript
 {{$on.constructor('alert(1)')()}}
+```
 proof of Concept
-![ dom xss lab](
+![ dom xss lab](dom-xss-lab2.PNG)
