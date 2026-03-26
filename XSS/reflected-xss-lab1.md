@@ -7,4 +7,4 @@
 1. Enter payload in search
 2. Alert appears\
 3. Proof
-![XSS Proof](../Screenshots/xss1.png.png)
+![XSS Proof](../Screenshots/xss1.png.)
