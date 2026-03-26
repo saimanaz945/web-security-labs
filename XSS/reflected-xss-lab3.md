@@ -24,5 +24,6 @@ Click the Search button.
 An alert box with "1" appears.
 
 Proof of Concept
-![Reflected XSS Proof](reflected-xss-proof-2.png)
+![Reflected XSS Proof](reflected-xss-proof-2.PNG)
+
 
