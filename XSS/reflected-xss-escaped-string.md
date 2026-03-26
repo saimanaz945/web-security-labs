@@ -21,4 +21,4 @@ Steps to Reproduce
 4. The alert(1) executes, and // neutralizes the remaining broken code.
 
 Proof of Concept
-![
+![reflected xss escape](reflected-xss-escaped-string.PNG)
