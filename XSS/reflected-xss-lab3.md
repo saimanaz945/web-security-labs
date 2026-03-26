@@ -11,7 +11,8 @@ This lab demonstrates a **Reflected Cross-Site Scripting (XSS)** vulnerability. 
 ### Payload Used
 ```html
 "><script>alert(1)</script>
-### Steps to Reproduce ```
+```  <-- ADD THIS HERE TO TURN OFF THE GRAY BOX
+### Steps to Reproduce 
 Navigate to the home page of the vulnerable application.
 
 In the search bar, enter the following breakout payload: "><script>alert(1)</script>.
