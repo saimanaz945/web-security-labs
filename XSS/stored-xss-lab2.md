@@ -19,4 +19,4 @@ This lab demonstrates **Stored Cross-Site Scripting (XSS)**. Unlike reflected XS
 6. Refresh the page or navigate back to the post to trigger the alert box.
 
 ### Proof of Concept
-![Stored XSS Proof](stored-xss-proof.PNG)
+![Stored XSS Proof](XSS/stored-xss-proof.PNG)
