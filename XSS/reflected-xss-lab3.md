@@ -23,7 +23,7 @@ Click the Search button.
 The browser executes the injected <script> tag, and an alert box with "1" appears.
 
 ### Proof of Concept
-!(reflected-xss-proof-2.PNG)
+![stored xss](reflected-xss-proof-2.PNG)
 
 
 
