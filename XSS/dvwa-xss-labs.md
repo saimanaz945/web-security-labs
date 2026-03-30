@@ -14,4 +14,4 @@ Context
 Vulnerability Location: HTML Body Context.
 
 Proof of Concept
-![dvwa xss lab1](dvwa-xss-lab1.docs)
+![dvwa xss lab1](dvwa-xss-lab1.PNG)
