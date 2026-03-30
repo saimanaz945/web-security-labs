@@ -8,10 +8,10 @@ The application fails to sanitize user input before reflecting it back into the 
 ### Payload Used
 ```html
 <script>alert(1)</script>
-'''
+```
 Context
 
 Vulnerability Location: HTML Body Context.
 
 Proof of Concept
-![dvwa xss lab1](dvwa-xss-lab1.PNG)
+![dvwa xss lab1](dvwa-xss-lab1.docs)
