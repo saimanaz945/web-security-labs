@@ -41,4 +41,4 @@ before the sql injection image
 ![sql lab3](sql01.PNG)
 after the sql injection show all hidden items
 proof of concept
-![sql-lab3](sqloo1.PNG)
+![sql-lab3](sql1.PNG)
