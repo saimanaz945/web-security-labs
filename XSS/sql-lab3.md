@@ -32,13 +32,13 @@ By injecting a tautology (`OR 1=1`), we force the `WHERE` clause to always evalu
 *   **How the DB Sees it:** `SELECT * FROM products WHERE category = 'Gifts' OR 1=1`
 
 ## Result
-As shown in the project documentation (referencing `image_58b701.jpg`), the application displays all products, including those that were unreleased or hidden from the public view.
+As shown in the project documentation , the application displays all products, including those that were unreleased or hidden from the public view.
 
 ---
-
-
-
-
 proof of concept 
+before the sql injection image
 
 ![sql lab3](sql01.PNG)
+after the sql injection show all hidden items
+proof of concept
+![sql-lab3](sqloo1.PNG)
