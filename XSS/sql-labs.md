@@ -1,12 +1,12 @@
 The Payload Anatomy
-Payload: ```
+Payload: 
 ' UNION SELECT user, password FROM users #
 
 ' (The Breaker): This closes the developer's original string. By adding this, you "break out" of the expected input and can start writing your own SQL code.
 
 UNION: A SQL operator that combines the result-set of two or more SELECT statements.
 
-SELECT user, password: This is your custom query. It tells the database: "Go get the data from the user and password columns." ```
+SELECT user, password: This is your custom query. It tells the database: "Go get the data from the user and password columns." 
 
 FROM users: Specifies the table where the sensitive data is stored.
 
@@ -41,5 +41,5 @@ Tip: Never trust user input. By using prepared statements, the database treats t
 
 proof of Concept
 
-![ dom xss lab](picture1.png)
+![ sql-lab](picture1.png)
 
