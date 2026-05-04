@@ -10,4 +10,4 @@ o	1 fills the "First name" slot.
 o	@@version fills the "Surname" slot with the database's version number.
 •	#: This is the "comment" character. It tells the database to ignore everything after it. This deletes the final ' that the developer originally put in the code, preventing a syntax error.
 proof of concept
-![ sql-lab2](picture2.png)
+![ sql-lab2](Picture2.png)
