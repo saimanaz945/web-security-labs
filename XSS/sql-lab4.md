@@ -9,7 +9,6 @@ Entered into the `username` field:
 ```sql
 ' OR 1=1--
 ```
-
 ### The Logic Breakdown
 In a standard login scenario, the database query looks like this:
 `SELECT * FROM users WHERE username = 'input_user' AND password = 'input_password'`
