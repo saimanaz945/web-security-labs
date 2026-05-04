@@ -29,13 +29,7 @@ When executed in a vulnerable field, the application will display:
 
 ---
 
-### 💡 A Few Tips for your GitHub Repo:
 
-1.  **Add a Disclaimer:** Always include a "For Educational Purposes Only" disclaimer. It protects you and shows you're a responsible researcher.
-2.  **Use Syntax Highlighting:** In your README, wrap your code in ` ```sql ` blocks so the keywords like `SELECT` and `UNION` are color-coded.
-3.  **Context:** Mention that this was tested on **DVWA** (Damn Vulnerable Web App). It gives your work credibility by showing you are practicing in a controlled, legal lab environment.
-
-Are you planning to add more advanced payloads (like extracting table names) to this repository later?
 
 proof of concept
 ![ sql-lab2](Picture2.png)
