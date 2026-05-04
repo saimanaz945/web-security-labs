@@ -1,0 +1,45 @@
+The Payload Anatomy
+Payload: ```
+' UNION SELECT user, password FROM users #
+
+' (The Breaker): This closes the developer's original string. By adding this, you "break out" of the expected input and can start writing your own SQL code.
+
+UNION: A SQL operator that combines the result-set of two or more SELECT statements.
+
+SELECT user, password: This is your custom query. It tells the database: "Go get the data from the user and password columns." ```
+
+FROM users: Specifies the table where the sensitive data is stored.
+
+# (The Comment): This is the most critical part. It tells the database to ignore everything the developer wrote after your input, preventing syntax errors.
+
+2. How it Works (Step-by-Step)
+Step A: The Developer's Plan
+The backend code is designed to fetch a specific user's name:
+SELECT first_name, last_name FROM users WHERE user_id = '$INPUT'
+
+Step B: The Hijack
+When the payload is entered, the full command sent to the database becomes:
+SELECT first_name, last_name FROM users WHERE user_id = '' UNION SELECT user, password FROM users #' 
+
+Step C: The Execution
+The database engine executes this as two separate tasks:
+
+Task 1: SELECT first_name, last_name FROM users WHERE user_id = ''
+
+Result: No user has a blank ID, so this returns nothing.
+
+Task 2: SELECT user, password FROM users
+
+Result: It grabs every row in the users table.
+
+The Final Result: Because of the UNION, the database takes the results of Task 2 and displays them in the "First name" and "Surname" boxes on your screen.
+
+3. How to Prevent This
+To fix this vulnerability, developers should use Prepared Statements (Parameterized Queries).
+
+Tip: Never trust user input. By using prepared statements, the database treats the input as "data" only, not as executable code.
+
+proof of Concept
+
+![ dom xss lab](picture1.png)
+
