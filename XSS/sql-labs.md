@@ -41,5 +41,5 @@ Tip: Never trust user input. By using prepared statements, the database treats t
 
 proof of Concept
 
-![ sql-lab](picture1.png)
+![ sql-lab](Picture1.png)
 
