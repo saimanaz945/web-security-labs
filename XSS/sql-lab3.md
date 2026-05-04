@@ -41,4 +41,4 @@ As shown in the project documentation (referencing `image_58b701.jpg`), the appl
 
 proof of concept 
 
-![sql lab3](
+![sql lab3](sql01.PNG)
