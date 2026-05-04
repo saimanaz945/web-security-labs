@@ -27,4 +27,4 @@ As seen in **image, the payload successfully bypassed the authentication wall, g
 
 
 proof of concept
-![sql-lab4](sql-2.PNG)
+![sql-lab4](sql2.PNG)
