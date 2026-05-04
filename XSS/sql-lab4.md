@@ -25,6 +25,6 @@ By entering the payload into the username field, the query is rewritten as:
 ### Evidence
 As seen in **image, the payload successfully bypassed the authentication wall, granting access to the `administrator` account dashboard.
 
----
+
 proof of concept
-![sql-lab4](sql2.PNG)
+![sql-lab4](sql-2.PNG)
