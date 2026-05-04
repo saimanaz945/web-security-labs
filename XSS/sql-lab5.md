@@ -21,6 +21,6 @@ In this scenario, the goal is to identify the specific version of the database. 
 ### Results and Evidence
 By executing this payload, the application merges the system information into the product list. As seen in **image**, the screen displays the Oracle version strings (e.g., *CORE 11.2.0.2.0 Production*), proving successful exploitation.
 
----
 proof of concept
+
 ![sql-lab5](sql3.PNG)
